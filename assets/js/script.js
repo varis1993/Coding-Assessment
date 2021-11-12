@@ -108,14 +108,10 @@ function questionClick(answerChoice) {
     time -= 10;
     // display new time on page
     feedbackEl.textContent = "Incorrect";
-    // play "wrong" sound effect
-    sfxWrong.play();
   }
   // else 
   else{
-    // play "right" sound effect
     feedbackEl.textContent = "Correct";
-    sfxRight.play();
   }
 
   // flash right/wrong feedback on page for half a second
