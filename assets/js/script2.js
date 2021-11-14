@@ -9,6 +9,8 @@ function clearHighscores() {
   clearButton.addEventListener("click", function(){
     clearHighscores();
   })
+  // run script when page loads
+  printHighscores();
 
   function printHighscores() {
     // either get scores from localstorage or set to empty array
@@ -26,10 +28,11 @@ function clearHighscores() {
         // display on page
         document.getElementById("highscores").appendChild(scoreLi);
       }
-    }
       
+    }
     else{
       var temp = document.getElementById("highscores");
-      temp.textContent = "NO HIGH SCORES";
+      temp.textContent = "NO HIGH SCORES";     
     }
 }
+  

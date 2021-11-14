@@ -199,6 +199,7 @@ function checkForEnter(event) {
     if(event.keyCode === 13)
       saveHighscore();
 }
+  
 
 // user clicks button to submit initials
 submitBtn.onclick = saveHighscore;
