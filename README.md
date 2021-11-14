@@ -1,4 +1,4 @@
-# Coding-Assessment
+# Sports-Trivia
 
 Take this quiz to challenge your knowledge of Sports
 
