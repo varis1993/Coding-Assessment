@@ -26,9 +26,10 @@ function clearHighscores() {
         // display on page
         document.getElementById("highscores").appendChild(scoreLi);
       }
-      
     }
+      
     else{
       var temp = document.getElementById("highscores");
       temp.textContent = "NO HIGH SCORES";
     }
+}
